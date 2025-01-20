@@ -134,9 +134,3 @@ This pipeline automates the extraction, transformation, and loading (ETL) proces
 - Enhance monitoring with detailed dashboards in Power BI or Grafana.
 - Automate deployment with CI/CD pipelines (e.g., GitHub Actions or Azure DevOps).
 
----
-
-## Contributing
-
-Contributions are welcome! Please submit a pull request or open an issue for discussion.
-
