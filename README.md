@@ -1,6 +1,6 @@
 # Azure Data Factory/Databricks - Data Engineering Pipeline
 
-This repository documents the **Data Engineering Pipeline** built using **Azure Data Factory (ADF)**. The pipeline automates data extraction, transformation, and loading (ETL) processes, with support for incremental data loads and advanced transformations.
+This repository documents the **Data Engineering Pipeline** built using **Azure Data Factory (ADF), Databricks and Azure Datalake**. The pipeline automates data extraction, loading and transformation (ELT) processes, with support for incremental data loads and advanced transformations. This repo will help freshners and newbies to understand the core concepts including slowly changes dimensiions[1,2], merge concept in datalake, delta format and much more...
 
 ---
 
@@ -138,18 +138,3 @@ This pipeline automates the extraction, transformation, and loading (ETL) proces
 
 Contributions are welcome! Please submit a pull request or open an issue for discussion.
 
----
-
-## License
-
-Include the relevant license for your project, e.g., MIT License.
-
----
-
-## Contact
-
-For any questions or issues, reach out to:
-
-- **Name**: [Your Name]
-- **Email**: [Your Email]
-- **LinkedIn**: [Your LinkedIn Profile]
