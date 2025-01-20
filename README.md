@@ -28,9 +28,9 @@ This pipeline automates the extraction, loading and transformation (ELT) process
 
 ## Tags
 
-- **Tools**: Azure Data Factory, Azure Databricks, SQL Database, Data Lake
+- **Tools**: Azure Data Factory, Azure Databricks, SQL Database, Azure Data Lake - ADLS Gen2
 - **Technologies**: ELT, Change Data Capture (CDC), Incremental Data Processing, Big Data
-- **Features**: Parallel Processing, Metadata-Driven Pipeline, Watermarking
+- **Features**: Parallel Processing, Metadata-Driven Pipeline, Watermarking, Time Travel, Restartability
 
 ---
 
