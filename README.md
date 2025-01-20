@@ -41,6 +41,8 @@ This pipeline automates the extraction, transformation, and loading (ETL) proces
 3. **Transformation**: Data is cleaned and transformed using ADF and Databricks.
 4. **Storage**: Processed data is stored in a data lake and dimension/fact tables.
 
+
+![screenshot](images/Databricks_Pipline.png)
 ---
 
 ## Pipeline Components
