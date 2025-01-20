@@ -27,7 +27,7 @@ This pipeline automates the extraction, transformation, and loading (ETL) proces
 ## Tags
 
 - **Tools**: Azure Data Factory, Azure Databricks, SQL Database, Data Lake
-- **Technologies**: ETL, Change Data Capture (CDC), Incremental Data Processing, Big Data
+- **Technologies**: ELT, Change Data Capture (CDC), Incremental Data Processing, Big Data
 - **Features**: Parallel Processing, Metadata-Driven Pipeline, Watermarking
 
 ---
@@ -66,8 +66,8 @@ This pipeline automates the extraction, transformation, and loading (ETL) proces
 
 ### Databricks Notebooks
 
-- **Product_Dimension**: Handles product-related data transformation.
-- **Branch_Dimension**: Processes branch-specific data.
+- **Product_Dimension**: Handles product-related data transformation to create SCD2 .
+- **Branch_Dimension**: Processes branch-specific data to handle SCD1.
 - **Sales_Fact**: Creates fact tables for sales metrics.
 
 ---
@@ -120,9 +120,11 @@ This pipeline automates the extraction, transformation, and loading (ETL) proces
 ### Deployment Steps
 
 1. Clone this repository.
-2. Import the pipeline JSON into Azure Data Factory.
-3. Configure the linked services.
-4. Run the pipeline with test data to verify the setup.
+2. create your own tables [watermark and transactional], you can skip this stepbut you will need a little modification in pipeline ;)
+3. Import the pipeline JSON into Azure Data Factory.
+4. Import the notebooks in databricks
+5. Configure the linked services.
+6. Run the pipeline with test data to verify the setup.
 
 ---
 
