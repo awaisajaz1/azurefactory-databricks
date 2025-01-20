@@ -1,0 +1,6 @@
+selected resource name:		Data_Extraction_Pipeline
+selected resource type:		pipeline
+factory name:			qorefactory
+factory location:		eastus
+subscription id:		6957754f-3376-4713-87c7-3fe17592e0f5
+time of download (UTC):		Mon, 20 Jan 2025 05:57:11 GMT
