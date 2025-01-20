@@ -18,7 +18,7 @@ sales_src_df = spark.read.format("parquet")\
 
 # COMMAND ----------
 
-sales_src_df.display()
+# sales_src_df.display()
 
 # COMMAND ----------
 
@@ -27,7 +27,7 @@ sales_src_df.write.mode("overwrite").format("parquet").save("abfss://silverlayer
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC select * from parquet.`abfss://silverlayer@qoredeltalake.dfs.core.windows.net/sales_transaction`
+# MAGIC -- select * from parquet.`abfss://silverlayer@qoredeltalake.dfs.core.windows.net/sales_transaction`
 
 # COMMAND ----------
 
@@ -43,7 +43,7 @@ df_src = spark.sql('''
 
 # COMMAND ----------
 
-df_src.display()
+# df_src.display()
 
 # COMMAND ----------
 
@@ -100,7 +100,7 @@ elif spark.catalog.tableExists('external_catalog.gold.sales_fact'):
     # Deduplicate the source DataFrame
     # df_silver_dedup = df_silver.dropDuplicates(["Branch_SK", "Model_SK", "DealerName", "Date_ID"])
 
-    df_silver_dedup.display()
+    # df_silver_dedup.display()
 
     gold_delta_tbl.alias("tgt").merge(df_silver.alias("src"), "tgt.Branch_SK = src.Branch_SK AND tgt.Model_SK = src.Model_SK AND tgt.DealerName = src.DealerName AND tgt.Date_ID = src.Date_ID")\
         .whenMatchedUpdate(set= {"Process_Type": lit("Update")})\
@@ -111,7 +111,7 @@ elif spark.catalog.tableExists('external_catalog.gold.sales_fact'):
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC select * from external_catalog.gold.sales_fact;
+# MAGIC -- select * from external_catalog.gold.sales_fact;
 # MAGIC -- delete from external_catalog.gold.branch_dimension where Branch_SK is null;
 # MAGIC
 # MAGIC -- update external_catalog.gold.product_dimension
