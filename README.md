@@ -124,7 +124,7 @@ This pipeline automates the extraction, loading and transformation (ELT) process
 ### Deployment Steps
 
 1. Clone this repository.
-2. create your own tables [watermark and transactional], you can skip this stepbut you will need a little modification in pipeline ;)
+2. Create your own tables [watermark and transactional], you can skip this stepbut you will need a little modification in pipeline ;)
 3. Import the pipeline JSON into Azure Data Factory.
 4. Import the notebooks in databricks
 5. Configure the linked services.
