@@ -1,0 +1,4 @@
+﻿Branch_ID,Dealer_ID,Model_ID,Revenue,Units_Sold,Date_ID,Day,Month,Year,BranchName,DealerName,Product_Name
+BR11001,DLR0001,BMW-M1,13363978,2,DT01249,1,1,2020,AC Cars Motors,AC Cars Motors,BMW
+BR11002,DLR0228,Hon-M218,17376468,3,DT01249,10,5,2020,AC Cars Motors,Deccan Motors,Honda
+BR11003,DLR0208,Tat-M188,9664767,3,DT01249,12,1,2020,AC Cars Motors,Wiesmann Motors,Tata_Renamed_scd2
