@@ -22,7 +22,7 @@ This repository documents the **Data Engineering Pipeline** built using **Azure 
 
 ## Introduction
 
-This pipeline automates the extraction, loading and transformation (ELT) process. It integrates **Azure Data Factory** and **Databricks** for scalable and efficient data processing. The design supports both batch and incremental data loads.
+This pipeline automates the extraction, loading and transformation (ELT/ETL) process. It integrates **Azure Data Factory** and **Databricks** for scalable and efficient data processing. The design supports both batch and incremental data loads.
 
 ---
 
