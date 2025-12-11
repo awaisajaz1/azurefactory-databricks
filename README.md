@@ -17,7 +17,6 @@ This repository documents the **Data Engineering Pipeline** built using **Azure 
 8. [Monitoring and Logs](#monitoring-and-logs)
 9. [Setup and Deployment](#setup-and-deployment)
 10. [Future Enhancements](#future-enhancements)
-
 ---
 
 ## Introduction
