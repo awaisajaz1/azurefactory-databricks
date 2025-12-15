@@ -71,7 +71,6 @@ This pipeline automates the extraction, loading and transformation (ELT/ETL) pro
 - **Product_Dimension**: Handles product-related data transformation to create SCD2 .
 - **Branch_Dimension**: Processes branch-specific data to handle SCD1.
 - **Sales_Fact**: Creates fact tables for sales metrics.
-
 ---
 
 ## Key Features
