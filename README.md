@@ -107,7 +107,6 @@ This pipeline automates the extraction, loading and transformation (ELT/ETL) pro
 - **Pipeline Status**: Provides status, runtime, and duration for each activity.
 - **Error Logs**: Captures failures for debugging.
 - **Monitoring Tools**: Azure Monitor and Log Analytics can be integrated for advanced tracking.
-
 ---
 
 ## Setup and Deployment
