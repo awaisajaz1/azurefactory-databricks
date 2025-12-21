@@ -61,7 +61,6 @@ This pipeline automates the extraction, loading and transformation (ELT/ETL) pro
   - `extractCDC`: Extracts incremental (CDC) data.
   - `updateWatermark`: Updates processing metadata.
   - `database2lake_bronze`: Moves structured data to the data lake's bronze layer.
-
 ---
 
 ## Data Transformation
